@@ -1,0 +1,28 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'run', 'build-css' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 verbose run-script [ 'prebuild-css', 'build-css', 'postbuild-css' ]
+5 info lifecycle probandosass@1.0.0~prebuild-css: probandosass@1.0.0
+6 silly lifecycle probandosass@1.0.0~prebuild-css: no script for prebuild-css, continuing
+7 info lifecycle probandosass@1.0.0~build-css: probandosass@1.0.0
+8 verbose lifecycle probandosass@1.0.0~build-css: unsafe-perm in lifecycle true
+9 verbose lifecycle probandosass@1.0.0~build-css: PATH: /usr/share/npm/bin/node-gyp-bin:/mnt/c/Users/Micaela/Desktop/New folder/node_modules/.bin:/mnt/c/Users/Micaela/Desktop/New folder/node_modules/.bin:/usr/share/npm/bin/node-gyp-bin:/mnt/c/Users/Micaela/Desktop/New folder/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.UbuntuonWindows_2004.2020.812.0_x64__79rhkp1fndgsc:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Micaela/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/Micaela/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/Micaela/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Micaela/AppData/Local/Programs/MiKTeX 2.9/miktex/bin/x64/:/snap/bin
+10 verbose lifecycle probandosass@1.0.0~build-css: CWD: /mnt/c/Users/Micaela/Desktop/New folder
+11 silly lifecycle probandosass@1.0.0~build-css: Args: [ '-c',
+11 silly lifecycle   'node-sass --include-path scss scss/style.scss css/estilo.css' ]
+12 verbose stack Error: write EIO
+12 verbose stack     at _errnoException (util.js:1022:11)
+12 verbose stack     at WriteWrap.afterWrite [as oncomplete] (net.js:880:14)
+13 verbose cwd /mnt/c/Users/Micaela/Desktop/New folder
+14 error Linux 4.4.0-18362-Microsoft
+15 error argv "/usr/bin/node" "/usr/bin/npm" "run" "build-css"
+16 error node v8.10.0
+17 error npm  v3.5.2
+18 error code EIO
+19 error errno EIO
+20 error syscall write
+21 error write EIO
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
